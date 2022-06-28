@@ -1,0 +1,28 @@
+/*--- FONTS ---*/
+
+@font-face {
+  font-family: "Kayak";
+  src: url('./assets/fonts/Kayak Sans Regular.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Kayak";
+  src: url('./assets/fonts/Kayak Sans Light.otf');
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Kayak";
+  src: url('./assets/fonts/Kayak Sans Bold.otf');
+  font-weight: bold;
+}
+
+
+/*--- FONTS ---*/
+.App {
+  text-align: center;
+  font-family: "Kayak";
+}
+.sectionTitle {
+  margin-bottom: 40px;
+}

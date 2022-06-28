@@ -1,0 +1,59 @@
+.footer {
+    background-color: #1f1f1f;
+    color: #f7f7f7;
+}
+
+.footer .col-1-of-3 {
+    width: 33%;
+    padding: 0 60px;
+}
+
+.footer .col-2-of-3 {
+    width: 33%;
+    padding: 0 60px;
+}
+
+.colTitle {
+    display: block;
+    margin: 20px auto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer .col-3-of-3 {
+    width: 33%;
+    padding: 0 60px;
+}
+
+.icon {
+    color: #f7f7f7;
+    cursor: pointer;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.fa-envelope:hover {
+    color: #fb2a00;
+    transition: color 0.2s;
+}
+
+.fa-phone:hover {
+    color: #46a444;
+    transition: color 0.2s;
+}
+
+.fa-facebook:hover {
+    color: #4267B2;
+    transition: color 0.2s;
+}
+
+.copy {
+    display: block;
+    border-top: 1px solid #505050;
+    color: #f7f7f7;
+    margin-top: 40px;
+}
+
+.footer .col  {
+    text-align: center;
+}

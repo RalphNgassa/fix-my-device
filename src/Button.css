@@ -1,0 +1,35 @@
+.btn {
+    display: inline-block;
+    padding: 10px;
+    width: 180px;
+    color: #fefefe;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.btn-transparent {
+    border: 1px #fefefe solid;
+    background-color: transparent;
+}
+
+#btn-trans-first:hover {
+    border: 1px #374ad7 solid;
+    background-color: #374ad7;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+#btn-trans-last:hover {
+    border: 1px #00039f solid;
+    background-color: #00039f;
+    transition: background-color 0.2s, border 0.2s;
+}
+
+.btn-solid {
+    border: 1px #00039f solid;
+    background-color: #00039f;
+}
+
+.hero .btn-transparent {
+    margin-right: 25px;
+}
+

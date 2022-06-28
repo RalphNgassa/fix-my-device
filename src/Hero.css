@@ -1,0 +1,16 @@
+.hero {
+    background-image: linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.8)),url("assets/img/heroBg.jpg");
+    color: #f7f7f7;
+    height: 100vh;
+}
+
+.hero p{
+    display: block;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 190px;
+}
+
+.btn{
+    cursor: pointer;
+}

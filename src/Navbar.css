@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.navbar ul li{
+    float: right;
+}
+
+.navbar ul li:last-child {
+    float: left;
+}
+
+.navbar ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.navbar ul{
+    list-style: none;
+    flex-grow: 1;
+}
+
+
+
