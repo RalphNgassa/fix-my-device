@@ -5,7 +5,6 @@ import Services from './Services';
 import Reviews from './Reviews';
 import Footer from './Footer';
 import Button from './Button';
-import { Helmet } from 'react-helmet';
 
 function App() {
   return (

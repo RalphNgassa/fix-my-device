@@ -1,0 +1,49 @@
+.reviews .col{
+    padding: 40px 0;
+}
+
+
+.form-line {
+    margin: 8px auto;
+    width: 60%;
+}
+
+
+.reviews-form .field {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+    height: 20px;
+    
+}
+
+.reviews-form textarea {
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    width: 100%;
+    height: 80px;
+}
+
+.reviews-form label {
+    text-align: left;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+ }
+
+.required::after {
+    content: " *";
+    color: red;
+    font-size: 10px;
+}
+
+.reviews .col-1-of-2 {
+    background-color: #222222;
+    color: #f7f7f7;
+}
+
+.comment p{
+    margin: 40px auto;
+    width: 50%;
+}

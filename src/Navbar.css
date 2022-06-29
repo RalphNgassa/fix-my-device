@@ -2,10 +2,17 @@
     display: flex;
     align-items: center;
     margin: 0 40px;
+    padding-bottom: 4px;
 }
 
 .navbar ul li{
     float: right;
+    padding-bottom: 2px;
+}
+
+.parts:hover{
+    border-bottom: 2px yellow solid;
+    transition: border-bottom 0.3s;
 }
 
 .navbar ul li:last-child {
@@ -15,7 +22,7 @@
 .navbar ul li a{
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     color: white;
 }

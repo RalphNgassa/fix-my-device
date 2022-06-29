@@ -4,7 +4,7 @@
     width: 180px;
     color: #fefefe;
     font-weight: bold;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 
 .btn-transparent {
@@ -13,20 +13,30 @@
 }
 
 #btn-trans-first:hover {
-    border: 1px #374ad7 solid;
-    background-color: #374ad7;
-    transition: background-color 0.2s, border 0.2s;
+    color: black;
+    border: 1px #ffd700 solid;
+    background-color: #ffd700;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
 }
 
 #btn-trans-last:hover {
-    border: 1px #00039f solid;
-    background-color: #00039f;
-    transition: background-color 0.2s, border 0.2s;
+    color: black;
+    border: 1px #fff93a solid;
+    background-color: #fff93a;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
 }
 
 .btn-solid {
-    border: 1px #00039f solid;
-    background-color: #00039f;
+    color: black;
+    border: 1px #ffd700 solid;
+    background-color: #ffd700;
+}
+
+.btn-solid:hover {
+    color: black;
+    border: 1px #fff93a solid;
+    background-color: #fff93a;
+    transition: color 0.3s, background-color 0.3s, border 0.3s;
 }
 
 .hero .btn-transparent {
