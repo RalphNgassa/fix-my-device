@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fix-my-device/static/css/main.9b9cdfa4.css",
-    "main.js": "/fix-my-device/static/js/main.10efc57e.js",
+    "main.css": "/fix-my-device/static/css/main.4a33fdbc.css",
+    "main.js": "/fix-my-device/static/js/main.17aa0a3f.js",
     "static/js/787.3df56c91.chunk.js": "/fix-my-device/static/js/787.3df56c91.chunk.js",
     "static/media/heroBg.jpg": "/fix-my-device/static/media/heroBg.771c7d4c50a47a449939.jpg",
     "static/media/Kayak Sans Light.otf": "/fix-my-device/static/media/Kayak Sans Light.af4e72d602660f4ed519.otf",
@@ -10,12 +10,12 @@
     "static/media/iphone-13-pro-min.jpg": "/fix-my-device/static/media/iphone-13-pro-min.bd5fa3356499fbeefbc6.jpg",
     "static/media/logo.svg": "/fix-my-device/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/fix-my-device/index.html",
-    "main.9b9cdfa4.css.map": "/fix-my-device/static/css/main.9b9cdfa4.css.map",
-    "main.10efc57e.js.map": "/fix-my-device/static/js/main.10efc57e.js.map",
+    "main.4a33fdbc.css.map": "/fix-my-device/static/css/main.4a33fdbc.css.map",
+    "main.17aa0a3f.js.map": "/fix-my-device/static/js/main.17aa0a3f.js.map",
     "787.3df56c91.chunk.js.map": "/fix-my-device/static/js/787.3df56c91.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b9cdfa4.css",
-    "static/js/main.10efc57e.js"
+    "static/css/main.4a33fdbc.css",
+    "static/js/main.17aa0a3f.js"
   ]
 }
