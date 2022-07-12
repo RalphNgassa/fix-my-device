@@ -1,0 +1,8 @@
+.bookingConfirm .line{
+    background-color: #22ff1e;
+}
+
+ .bookingConfirm .progressElement .frame{
+    color: white;
+    background-color: green;
+ }

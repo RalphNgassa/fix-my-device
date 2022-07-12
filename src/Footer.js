@@ -1,3 +1,4 @@
+import ReactTooltip from 'react-tooltip';
 import './Footer.css';
 
 const Footer = () => {
@@ -6,8 +7,14 @@ const Footer = () => {
             <div className='row'>
                 <div className='col col-1-of-3'>
                     <span className="colTitle" style={{paddingTop: '70px', fontSize: '25px'}}>FixMyDevice</span>
-                    <a href="#"><i className="fa-solid fa-envelope icon"></i></a>
-                    <a href="#"><i className="fa-solid fa-phone icon"></i></a>
+                    <a href='mailto: fixmydevice@gmail.com' ><i data-tip data-for="emailTip" className="fa-solid fa-envelope icon"></i></a>
+                    <ReactTooltip id='emailTip' type='info' effect='solid' clickable={true} place='bottom' >
+                        <span>fixmydevice@gmail.com</span>
+                    </ReactTooltip>
+                    <a href="tel: 123-456-7890"><i data-tip data-for="phoneTip" className="fa-solid fa-phone icon"></i></a>
+                    <ReactTooltip id='phoneTip' type='info' effect='solid' clickable={true} place='bottom' >
+                        <span>123-456-7890</span>
+                    </ReactTooltip>
                     <a href="#"><i className="fa-brands fa-facebook icon"></i></a>
                 </div>
                 <div className='col col-2-of-3'>

@@ -1,0 +1,41 @@
+.part2 {
+}
+
+
+.part2 .col-1-of-2 .clickbtn{
+    margin-right: -120px;
+}
+
+.part2 .col-2-of-2 .clickbtn{
+    margin-left: -120px;
+}
+
+
+#p2Title{
+    display: block;
+}
+
+.bookingDetails .line:first-of-type{
+    background-color: #22ff1e;
+}
+
+ .bookingDetails .progressElement:first-of-type .frame{
+    color: white;
+    background-color: green;
+ }
+
+
+
+.bookingDetails .progressElement:nth-of-type(n+3){
+    color: rgb(229, 229, 229);
+ }
+
+.bookingDetails .progressElement:nth-of-type(n+3) .frame{
+    color: rgb(229, 229, 229);
+    border: 1px rgb(229, 229, 229) solid;
+}
+
+
+.bookingDetails .line:nth-of-type(n+2) {
+    background-color: rgba(229, 229, 229, 0.103);
+}

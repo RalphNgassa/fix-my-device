@@ -1,0 +1,22 @@
+.progressBar {
+    margin: 30px auto;
+    width: 70%;
+}
+
+.line {
+    display: inline-block;
+    width: 30%;
+    height: 1px;
+    /* background-color: black; */
+    margin-top: 30px;
+}
+
+/* .progressTitles li{
+    display: inline;
+    float: left;
+}
+
+.progressTitles {
+    display: block;
+    list-style: none;
+} */

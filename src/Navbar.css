@@ -1,18 +1,47 @@
 .navbar{
+    overflow: hidden;
     display: flex;
     align-items: center;
-    margin: 0 40px;
+    padding: 0 40px;
     padding-bottom: 4px;
+    z-index: 5;
+    transition: background-color 0.2s;
+}
+
+.navbar.solid {
+    background-color: #fafafa;
+    position: fixed;
+    /* padding-top: 60px; */
+    width: 100%;
+    padding: 0 auto;
+    top: 0;
+}
+
+.navbar.solid ul li{
+    color: black;
+}
+
+.navbar.solid ul li a{
+    color: black;
 }
 
 .navbar ul li{
     float: right;
     padding-bottom: 2px;
+    color: white;
 }
 
-.parts:hover{
-    border-bottom: 2px yellow solid;
-    transition: border-bottom 0.3s;
+.navbar .logo:hover{
+    /* border-bottom: 2px yellow solid; */
+    color: yellow;
+    transition: color 0.3s;
+}
+
+
+.navbar.solid .logo:hover{
+    /* border-bottom: 2px yellow solid; */
+    color: black;
+    transition: color 0.3s;
 }
 
 .navbar ul li:last-child {
@@ -27,10 +56,35 @@
     color: white;
 }
 
+.navbar ul li a:hover {
+    color: gold;
+    transition: color 0.3s;
+}
 
 .navbar ul{
     list-style: none;
-    flex-grow: 1;
+    width: 90%;
+    margin-right: auto;
+    /* flex-grow: 1; */
+}
+
+/*Booking*/
+
+.booking .navbar {
+    background-color: #fafafa;
+    /* padding-top: 60px; */
+    padding: 0 auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.booking .navbar ul a li{
+    color: black;
+}
+
+
+.booking .navbar ul li a{
+    color: black;
 }
 
 

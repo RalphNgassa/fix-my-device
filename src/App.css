@@ -26,3 +26,6 @@
 .sectionTitle {
   margin-bottom: 40px;
 }
+html {
+  scroll-behavior: smooth;
+}

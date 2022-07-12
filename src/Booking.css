@@ -1,0 +1,63 @@
+/*------------1st Page---------------------*/
+.booking {
+}
+
+.booking .navbar {
+    background-color: #fafafa;
+    /* padding-top: 60px; */
+    padding: 0 auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.booking .navbar ul li a{
+    color: black;
+}
+
+
+.bookingfooter {
+    margin-top: 50px;
+}
+
+.titleBlock{
+    display: block;
+}
+
+.booking h2{
+    margin-bottom: 60px;
+}
+
+.booking select {
+    display: block;
+    border-radius: 4px;
+    width: 40%;
+    height: 40px;
+    margin: 20px auto;
+}
+.bookingMain .line:first-of-type{
+    background-color: black;
+}
+.bookingMain .progressElement:nth-of-type(n+2){
+    color: rgb(229, 229, 229);
+ }
+
+.bookingMain .progressElement:nth-of-type(n+2) .frame{
+    color: rgb(229, 229, 229);
+    border: 1px rgb(229, 229, 229) solid;
+}
+
+
+.bookingMain .line:nth-of-type(n+2) {
+    background-color: rgba(229, 229, 229, 0.103);
+}
+
+
+
+/*------------2nd Page---------------------*/
+
+
+
+
+/*------------3rd Page---------------------*/
+
+

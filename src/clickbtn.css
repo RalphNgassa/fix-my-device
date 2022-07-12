@@ -1,0 +1,20 @@
+.clickbtn{
+    cursor: pointer;
+}
+
+.clickbtn button {
+    
+    width: 280px;
+    height: 40px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+/* .clickbtn button .clicked {
+    color: white;
+    background-color: green;
+    border: 1px green solid;
+    transition: color 0.2s, background-color 0.2s, border 0.2s;
+} */

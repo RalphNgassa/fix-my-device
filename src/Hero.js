@@ -1,14 +1,16 @@
 import Navbar from "./Navbar";
 import './Hero.css';
-
+import {Link} from 'react-router-dom';
 
 const Hero = () => {
     return (
         <div className="hero">
             <Navbar/>
-            <p>We make small and big repairs on your device</p>
-            <a href="#"><button className="btn btn-transparent" id="btn-trans-first">See more</button></a>
-            <a href="#"><button className="btn btn-transparent" id="btn-trans-last">Save my device</button></a>
+            <div style={{paddingTop: "190px"}}>
+                <p>We make small and big repairs on your device</p>
+                <a href="#services"><button className="btn btn-transparent" id="btn-trans-first">See more</button></a>
+                <Link to="/bookingmain"><button className="btn btn-transparent" id="btn-trans-last">Save my device</button></Link>
+            </div>
         </div>
     );
 };
