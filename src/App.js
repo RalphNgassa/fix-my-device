@@ -17,7 +17,7 @@ function App() {
     <Router>
       <div className='App'>
         <Routes>
-          <Route exact path='/' element={<Home/>} />
+          <Route exact path='/fix-my-device' element={<Home/>} />
           <Route path='/bookingmain' element={<BookingMain/>} />
           <Route path='/bookingdetails' element={<BookingDetails/>} />
           <Route path='/bookingapt' element={<BookingApt/>} />

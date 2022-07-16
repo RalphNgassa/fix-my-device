@@ -15,7 +15,7 @@ const Footer = () => {
                     <ReactTooltip id='phoneTip' type='info' effect='solid' clickable={true} place='bottom' >
                         <span>123-456-7890</span>
                     </ReactTooltip>
-                    <a href="#"><i className="fa-brands fa-facebook icon"></i></a>
+                    <a href="https://www.facebook.com/PSG" target="_blank"><i className="fa-brands fa-facebook icon"></i></a>
                 </div>
                 <div className='col col-2-of-3'>
                     <span className="colTitle">Location</span>
