@@ -7,9 +7,9 @@ const Hero = () => {
         <div className="hero">
             <Navbar/>
             <div style={{paddingTop: "190px"}}>
-                <p>We make small and big repairs on your device</p>
-                <a href="#services"><button className="btn btn-transparent" id="btn-trans-first">See more</button></a>
-                <Link to="/bookingmain"><button className="btn btn-transparent" id="btn-trans-last">Save my device</button></Link>
+                <p role="heading">We make small and big repairs on your device</p>
+                <a href="#services"><button className="btn btn-transparent" id="btn-trans-first" role="link">See more</button></a>
+                <Link to="/howto"><button className="btn btn-transparent" id="btn-trans-last" role="link">Save my device</button></Link>
             </div>
         </div>
     );

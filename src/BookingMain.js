@@ -136,6 +136,7 @@ const BookingMain = () => {
                         <select id="deviceSelect" 
                         name="device"
                         onChange={() => {s1()}}
+                        role="listbox"
                         required>
                         {devices.map(
                                 (option, index) => (
@@ -147,6 +148,7 @@ const BookingMain = () => {
                         </select>
                         <select id="brandSelect" 
                         name='brand'
+                        role="listbox"
                         required
                         onChange={() => {s2()}}>
                             {brands.map(
@@ -160,6 +162,7 @@ const BookingMain = () => {
                         </select>
                         <select id="modelSelect"
                         name='model'
+                        role="listbox"
                         required>
                             {models.map(
                                 (option, index) => (

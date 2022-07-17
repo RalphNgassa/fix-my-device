@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import Hero from './Hero';
-import Services from './Services';
 import Reviews from './Reviews';
 import Footer from './Footer';
 import Button from './Button';
@@ -11,6 +10,7 @@ import BookingMain from './BookingMain';
 import BookingDetails from './BookingDetails';
 import BookingApt from './BookingApt';
 import BookingConfirm from './BookingConfirm';
+import HowTo from './HowTo';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
           <Route path='/bookingmain' element={<BookingMain/>} />
           <Route path='/bookingdetails' element={<BookingDetails/>} />
           <Route path='/bookingapt' element={<BookingApt/>} />
+          <Route path='/howto' element={<HowTo/>} />
           <Route path='/BookingConfirm' element={<BookingConfirm/>} />
         </Routes>
       </div>

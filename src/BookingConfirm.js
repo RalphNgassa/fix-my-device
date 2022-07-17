@@ -14,7 +14,7 @@ const BookingConfirm = () => {
     setTimeout(() => setRedirectNow(true), 2000);
 
 
-    return redirectNow? <Navigate to="/" /> :(
+    return redirectNow? <Navigate to="/fix-my-device" /> :(
         
         <div className='booking bookingConfirm'>
             <Navbar/>

@@ -1,5 +1,4 @@
 .navbar{
-    overflow: hidden;
     display: flex;
     align-items: center;
     padding: 0 40px;
@@ -11,14 +10,9 @@
 .navbar.solid {
     background-color: #fafafa;
     position: fixed;
-    /* padding-top: 60px; */
-    width: 100%;
-    padding: 0 auto;
     top: 0;
-}
-
-.navbar.solid ul li{
-    color: black;
+    left: 0;
+    right: 0;
 }
 
 .navbar.solid ul li a{
@@ -32,14 +26,12 @@
 }
 
 .navbar .logo:hover{
-    /* border-bottom: 2px yellow solid; */
     color: yellow;
     transition: color 0.3s;
 }
 
 
 .navbar.solid .logo:hover{
-    /* border-bottom: 2px yellow solid; */
     color: black;
     transition: color 0.3s;
 }
@@ -63,9 +55,7 @@
 
 .navbar ul{
     list-style: none;
-    width: 90%;
-    margin-right: auto;
-    /* flex-grow: 1; */
+    flex-grow: 1;
 }
 
 /*Booking*/
@@ -77,11 +67,6 @@
     margin-bottom: 100px;
     overflow: hidden;
 }
-
-.booking .navbar ul a li{
-    color: black;
-}
-
 
 .booking .navbar ul li a{
     color: black;

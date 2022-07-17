@@ -45,3 +45,11 @@
     width: 180px;
 }
 
+.field {
+    border: 1px solid grey;
+}
+
+.field:focus {
+    box-shadow: 0px 0px 0px 1px #eee;
+}
+

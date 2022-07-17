@@ -1,6 +1,7 @@
 import './Services.css';
 import serviceImg1 from './assets/img/iphone-13-pro-min.jpg'
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -33,14 +34,14 @@ const Services = () => {
                         <li>30-day satisfaction guarantee</li>
                         <li>Affordable Pricing  <i><b>(Starting at $40)</b></i></li>
                     </ul>
-                    <Link to="/bookingmain"><button className='btn btn-solid'>See my repair options</button></Link>
+                    <HashLink to="/howto#"><button className='btn btn-solid'>See my repair options</button></HashLink>
                 </div>
                 <div className='col col-2-of-2'>
                     <img src={serviceImg1} className="row-1-img " alt='image of iphone' id='iphoneImg'></img>
                 </div>
             </div>
             <div className='row row-2'>
-                <div className="col col-1-of-3 animate__animated animate__fadeIn" id='service1'>
+                <div className="col col-1-of-3 animate__animated animate__fadeIn" id='service1' role="article">
                     <i className="fa-solid fa-mobile"></i>
                     <h3>Phone repairs</h3>
                     <p>
@@ -51,7 +52,7 @@ const Services = () => {
                     </p>
                 </div>
                 
-                <div className="col col-2-of-3 animate__animated animate__fadeIn" id='service3'>
+                <div className="col col-2-of-3 animate__animated animate__fadeIn" id='service3' role="article">
                     <i className="fa-solid fa-tablet-screen-button"></i>
                     <h3>Tablet Repairs</h3>
                     <p>
@@ -61,10 +62,10 @@ const Services = () => {
                     </p>
                 </div>
 
-                <div className="col col-3-of-3 animate__animated animate__fadeIn" id='service2'>
+                <div className="col col-3-of-3 animate__animated animate__fadeIn" id='service2' role="article">
                     <i className="fa-solid fa-laptop"></i>
                     <h3>Laptop Repairs</h3>
-                    <p>
+                    <p >
                         Aside from smartphones, we take care of your laptops, handling issues such as 
                         cracked screen, water damage or charging problems. We know how expensive your cherished 
                         portable devices are. We help make some savings. 

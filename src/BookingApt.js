@@ -22,10 +22,10 @@ const BookingApt = () => {
             <div className='row part3'>
                 <div className="col col-1-of-1">
                     <form onSubmit={(e) => { b3Function(e) }}>
-                        <input type={"date"} id="dateInput" data-date-inline-picker="true" required/>
-                        <input type={"time"} id="timeInput" required/>
-                        <input type={"text"} id="nameInput" placeholder='Enter your name' required/>
-                        <input type={"email"} id="emailInput" placeholder='Enter your email address' required/>
+                        <input type={"date"} id="dateInput" className='field' data-date-inline-picker="true" aria-label='choose a date' required/>
+                        <input type={"time"} id="timeInput" className='field' aria-label='choose a time slot' required/>
+                        <input type={"text"} id="nameInput" className='field' placeholder='Enter your name' required/>
+                        <input type={"email"} id="emailInput" className='field' placeholder='Enter your email address' required/>
                         <input type={"submit"} value={"Validate Appointment"} className="btn btn-solid" id='p3Button'></input>
                     </form>
                 </div>
