@@ -2,9 +2,9 @@ import './bookingDetails.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import ProgressBar from './ProgressBar';
-import { useEffect, useState } from 'react'; 
+import {useState} from 'react'; 
 import ClickBtn from './ClickBtn';
-import {Link, Routes, Route, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import Price from './Price';
 
 
@@ -118,7 +118,7 @@ const BookingDetails = () => {
             <Price amount = {price}/>
             <div className='row part2' style={{display: "block"}}>
                 <form onSubmit={(e) => { b2Function(e) }}>
-                    <input type={"submit"} value={"Continue"} className="btn btn-solid" id='p2Button'  style={{margin: "40px auto"}}></input>
+                    <input type={"submit"} value={"Continue"} className="btn btn-solid" id='p2Button' style={{margin: "40px auto"}}></input>
                 </form>
             </div>
             <Footer/>

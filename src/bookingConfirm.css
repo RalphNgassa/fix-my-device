@@ -6,3 +6,13 @@
     color: white;
     background-color: green;
  }
+
+.navbar .logo:hover{
+    color: yellow;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: gold;
+    transition: color 0.3s;
+}

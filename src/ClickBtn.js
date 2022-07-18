@@ -1,14 +1,8 @@
 import './clickbtn.css';
-import { useState } from "react";
-import { toBeEmpty } from '@testing-library/jest-dom/dist/matchers';
 
 const ClickBtn = (props) => {
     var text = props.text;
     const onPress = props.onPress;
-    // const [clicked, setClicked] = useState(props.clicked);
-    // console.log("ddd");
-    // console.log(props.clicked);
-
 
     return(
         <div className="clickbtn">

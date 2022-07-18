@@ -2,7 +2,6 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import './howto.css';
 import ProgressBar from "./ProgressBar";
-import Button from "./Button";
 import { HashLink } from "react-router-hash-link";
 
 const HowTo = () => {
@@ -10,7 +9,7 @@ const HowTo = () => {
         <div className="howTo">
             <Navbar/>
             <ProgressBar/>
-            <h2>Steps necessary to book a Repairing Appointment</h2>
+            <h2>Steps Necessary to Book an Appointment</h2>
             <div className="instructions">
                 <div className="row row1">
                     <span>1</span>

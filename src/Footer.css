@@ -59,3 +59,7 @@
 .footer .col  {
     text-align: center;
 }
+
+.footer i {
+    margin-right: 10px;
+}

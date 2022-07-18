@@ -52,11 +52,11 @@
 
 .comment {
     line-height: 1.6;
+    margin-bottom: 17px;
 }
 
 .comment p{
     margin: 12px auto;
-    
     width: 50%;
 }
 .comment p span{

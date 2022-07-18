@@ -50,3 +50,13 @@
     color: rgb(229, 229, 229);
     border: 1px rgb(229, 229, 229) solid;
 }
+
+.navbar .logo:hover{
+    color: yellow;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: gold;
+    transition: color 0.3s;
+}

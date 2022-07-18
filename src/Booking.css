@@ -51,3 +51,13 @@
     background-color: rgba(229, 229, 229, 0.103);
 }
 
+.navbar .logo:hover{
+    color: yellow;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: gold;
+    transition: color 0.3s;
+}
+
